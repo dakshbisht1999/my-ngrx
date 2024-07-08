@@ -1,1 +1,6 @@
+# Ignore Below Files
 node_modules
+.angular
+
+
+# Don't Ignore Below Files by using ! special character as prefix
