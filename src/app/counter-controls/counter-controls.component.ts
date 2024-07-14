@@ -12,11 +12,11 @@ export class CounterControlsComponent {
   constructor(private store: Store) { }
 
   increment(){
-    this.store.dispatch(increment())
+    this.store.dispatch(increment({value: 10}));
   }
 
   decrement(){
-    this.store.dispatch(decrement())
+    this.store.dispatch(decrement({value: 5}));
   }
 
 }
